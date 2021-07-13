@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -28,7 +28,23 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+ */
+
+ .pizza-logo {
+  height: 20vmin;
+  pointer-events: none;
+  box-shadow: none;
+  background: none;
+  width: 400px;
+}
+
+ @media (prefers-reduced-motion: no-preference) {
+  .pizza-logo {
+    animation: pizza-logo-spin infinite 20s linear;
+  }
+}
+
+ @keyframes pizza-logo-spin {
   from {
     transform: rotate(0deg);
   }
