@@ -34,8 +34,8 @@
   height: 20vmin;
   pointer-events: none;
   box-shadow: none;
-  background: none;
-  width: 400px;
+  background: none !important;
+  width: 400px !important;
 }
 
  @media (prefers-reduced-motion: no-preference) {
